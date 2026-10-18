@@ -93,7 +93,8 @@ compares the key numbers with the values reported in the manuscript and prints `
 ## Data
 
 The expression and clinical data are public TCGA-BRCA data obtained from the
-[UCSC Xena browser](https://xenabrowser.net). They are not redistributed in this repository; see
+[UCSC Xena browser](https://xenabrowser.net) (TCGA hub; expression dataset `TCGA.BRCA.sampleMap/HiSeqV2_PANCAN`, phenotype
+dataset `TCGA.BRCA.sampleMap/BRCA_clinicalMatrix`). They are not redistributed in this repository; see
 [`data/README.md`](data/README.md). Please cite TCGA and UCSC Xena when using the data.
 
 ## Citation

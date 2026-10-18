@@ -20,5 +20,14 @@ The 65 genes are:
 To reproduce exactly, place the file in this folder. The notebook verifies the checksum; a different download (for example
 a different Xena dataset version or gene list) will produce a warning and may give different results.
 
-The specific Xena dataset (hub and expression matrix) from which the file was exported should be recorded here by the
-authors.
+## Source datasets
+
+The file was exported from the UCSC Xena browser as one table combining two datasets on the **TCGA hub**
+(`https://tcga.xenahubs.net`):
+
+| Content | Xena dataset | Description | Version |
+|---|---|---|---|
+| Gene expression (65 genes) | `TCGA.BRCA.sampleMap/HiSeqV2_PANCAN` | IlluminaHiSeq pan-cancer normalised RNA-seq: RSEM normalised counts, log2(x + 1), mean-centred per gene across all TCGA cohorts | 2017-10-13 |
+| AJCC pathologic stage (`pathologic_stage`) | `TCGA.BRCA.sampleMap/BRCA_clinicalMatrix` | TCGA-BRCA phenotypes | 2019-12-06 |
+
+1,218 of the 1,247 rows have expression values, which matches the sample count of the expression dataset.
