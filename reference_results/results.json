@@ -1,0 +1,250 @@
+{
+ "versions": {
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "networkx": "3.6.1"
+ },
+ "n_raw": 1247,
+ "sample_types": {
+  "01": 1101,
+  "11": 139,
+  "06": 7
+ },
+ "n_primary": 1101,
+ "n_primary_unique": 1101,
+ "excluded_stage": {
+  "Stage X": 14,
+  "Missing": 9,
+  "[Discrepancy]": 3
+ },
+ "genes_dropped_missing": [],
+ "missing_cells_pct": 0.19,
+ "n": 1075,
+ "n_early": 805,
+ "n_late": 270,
+ "pct_late": 25.1,
+ "k": 65,
+ "stage_detail": {
+  "Stage IIA": 358,
+  "Stage IIB": 258,
+  "Stage IIIA": 156,
+  "Stage I": 90,
+  "Stage IA": 86,
+  "Stage IIIC": 65,
+  "Stage IIIB": 27,
+  "Stage IV": 20,
+  "Stage IB": 7,
+  "Stage II": 6,
+  "Stage III": 2
+ },
+ "n_train": 860,
+ "n_test": 215,
+ "n_train_early": 644,
+ "n_train_late": 216,
+ "n_test_early": 161,
+ "n_test_late": 54,
+ "acc_all_early_test": 74.9,
+ "best": "Logistic Regression",
+ "delong": {
+  "SVM (RBF)": 0.19861833352484326,
+  "Random Forest": 0.49716626990193635,
+  "Gradient Boosting": 0.58461575549973
+ },
+ "params": {
+  "Logistic Regression": {
+   "grid": {
+    "C": [
+     0.001,
+     0.01,
+     0.1,
+     1,
+     10
+    ]
+   },
+   "best": {
+    "C": 0.1
+   }
+  },
+  "SVM (RBF)": {
+   "grid": {
+    "C": [
+     0.1,
+     1,
+     10
+    ],
+    "gamma": [
+     "scale",
+     0.01,
+     0.001
+    ]
+   },
+   "best": {
+    "C": 10,
+    "gamma": 0.001
+   }
+  },
+  "Random Forest": {
+   "grid": {
+    "max_depth": [
+     null,
+     5,
+     10
+    ],
+    "min_samples_leaf": [
+     1,
+     5
+    ]
+   },
+   "best": {
+    "max_depth": null,
+    "min_samples_leaf": 1
+   }
+  },
+  "Gradient Boosting": {
+   "grid": {
+    "max_iter": [
+     200,
+     400
+    ],
+    "max_depth": [
+     2,
+     3,
+     5
+    ],
+    "learning_rate": [
+     0.03,
+     0.1
+    ]
+   },
+   "best": {
+    "learning_rate": 0.1,
+    "max_depth": 5,
+    "max_iter": 200
+   }
+  }
+ },
+ "top_importance": [
+  "POU5F1",
+  "FLT3",
+  "NOTCH1",
+  "FOS",
+  "NFKB2",
+  "PALB2",
+  "CD44",
+  "JAK2",
+  "KRAS",
+  "NFKB1"
+ ],
+ "importance_direction": {
+  "POU5F1": "early",
+  "FLT3": "early",
+  "NOTCH1": "early",
+  "FOS": "early",
+  "NFKB2": "early",
+  "PALB2": "early",
+  "CD44": "early",
+  "JAK2": "early",
+  "KRAS": "late",
+  "NFKB1": "late"
+ },
+ "n_sig": 0,
+ "n_nominal_p05": 17,
+ "net": {
+  "0.7": {
+   "edges": 7,
+   "nodes": 9
+  },
+  "0.5": {
+   "edges": 70,
+   "nodes": 36
+  },
+  "0.3": {
+   "edges": 385,
+   "nodes": 58
+  }
+ },
+ "edges07": [
+  [
+   "MAPK1",
+   "EP300",
+   0.71
+  ],
+  [
+   "GATA3",
+   "ESR1",
+   0.83
+  ],
+  [
+   "GATA3",
+   "FOXA1",
+   0.77
+  ],
+  [
+   "ESR1",
+   "FOXA1",
+   0.77
+  ],
+  [
+   "FOXA1",
+   "AR",
+   0.75
+  ],
+  [
+   "REL",
+   "EP300",
+   0.72
+  ],
+  [
+   "TGFBR2",
+   "PDGFRA",
+   0.72
+  ]
+ ],
+ "hub_thr": 0.5,
+ "hubs": [
+  [
+   "REL",
+   11
+  ],
+  [
+   "EP300",
+   10
+  ],
+  [
+   "ESR1",
+   9
+  ],
+  [
+   "GATA3",
+   8
+  ],
+  [
+   "PIK3CA",
+   7
+  ],
+  [
+   "EGFR",
+   6
+  ],
+  [
+   "ARID1A",
+   6
+  ],
+  [
+   "ATM",
+   5
+  ],
+  [
+   "FOXA1",
+   5
+  ],
+  [
+   "PDGFRA",
+   5
+  ]
+ ]
+}
