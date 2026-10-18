@@ -3,9 +3,14 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "Code for: An Interpretable Machine Learning Framework for Early- versus Late-Stage Classification of Breast Cancer from Gene Expression, with Co-expression Network Analysis"
 version: 1.0.0
+doi: 10.5281/zenodo.23456699
 date-released: "2026-10-18"
 license: MIT
 repository-code: "https://github.com/12345sri/breast-cancer-stage-ml-tcga"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23456699
+    description: "Zenodo archive of release v1.0.0"
 authors:
   - family-names: Biswas
     given-names: Sriporna

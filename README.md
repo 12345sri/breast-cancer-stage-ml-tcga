@@ -1,5 +1,7 @@
 # Breast cancer stage classification from gene expression (TCGA-BRCA)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23456699.svg)](https://doi.org/10.5281/zenodo.23456699)
+
 Code for the manuscript:
 
 > **An Interpretable Machine Learning Framework for Early- versus Late-Stage Classification of Breast Cancer from Gene Expression, with Co-expression Network Analysis**
@@ -97,6 +99,10 @@ The expression and clinical data are public TCGA-BRCA data obtained from the
 ## Citation
 
 If you use this code, please cite the manuscript and this software. Citation metadata are in [`CITATION.cff`](CITATION.cff).
+
+> Biswas S, Huda T, Pal H, Gupta VK. Code for: An Interpretable Machine Learning Framework for Early- versus Late-Stage
+> Classification of Breast Cancer from Gene Expression, with Co-expression Network Analysis (v1.0.0). Zenodo; 2026.
+> https://doi.org/10.5281/zenodo.23456699
 
 ## Licence
 
