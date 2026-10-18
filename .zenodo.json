@@ -4,9 +4,7 @@
   "description": "Analysis notebook, reference outputs and Supplementary Table S4 for a study of early- (AJCC Stage I–II) versus late-stage (Stage III–IV) classification of TCGA-BRCA primary breast tumours (n = 1,075) from a 65-gene cancer panel, using leakage-aware evaluation of four classifiers, permutation importance, differential expression and co-expression network analysis. Input data are public TCGA-BRCA data from the UCSC Xena browser and are not included.",
   "creators": [
     {"name": "Biswas, Sriporna", "affiliation": "Department of Computer Science & Engineering, Chandigarh University, Punjab, India", "orcid": "0009-0009-6683-5477"},
-    {"name": "Huda, Tanjidul", "affiliation": "Department of Biomedical Science, BCAS, University of Delhi, Delhi, India"},
-    {"name": "Pal, Hema", "affiliation": "Rapture Biotech International (P) Ltd., Noida, India"},
-    {"name": "Gupta, Vinod Kumar", "affiliation": "Rapture Biotech International (P) Ltd., Noida, India"}
+    {"name": "Huda, Tanjidul", "affiliation": "Department of Biomedical Science, BCAS, University of Delhi, Delhi, India"}
   ],
   "license": "MIT",
   "keywords": ["breast cancer", "tumour stage", "gene expression", "TCGA-BRCA", "machine learning", "class imbalance", "co-expression network"],

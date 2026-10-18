@@ -5,7 +5,7 @@
 Code for the manuscript:
 
 > **An Interpretable Machine Learning Framework for Early- versus Late-Stage Classification of Breast Cancer from Gene Expression, with Co-expression Network Analysis**
-> Sriporna Biswas, Tanjidul Huda, Hema Pal and Vinod Kumar Gupta.
+> Sriporna Biswas and Tanjidul Huda.
 
 This repository contains the analysis notebook that produces all tables and figures reported in the manuscript, the
 reference outputs from that run, and Supplementary Table S4.
@@ -101,7 +101,7 @@ dataset `TCGA.BRCA.sampleMap/BRCA_clinicalMatrix`). They are not redistributed i
 
 If you use this code, please cite the manuscript and this software. Citation metadata are in [`CITATION.cff`](CITATION.cff).
 
-> Biswas S, Huda T, Pal H, Gupta VK. Code for: An Interpretable Machine Learning Framework for Early- versus Late-Stage
+> Biswas S, Huda T. Code for: An Interpretable Machine Learning Framework for Early- versus Late-Stage
 > Classification of Breast Cancer from Gene Expression, with Co-expression Network Analysis (v1.0.0). Zenodo; 2026.
 > https://doi.org/10.5281/zenodo.23456699
 
